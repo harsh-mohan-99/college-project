@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="signup-wrapper">
+        <form class="signup-form" >
+            <h2>Create Account</h2>
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Full Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="Username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="Confirm" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit" onsubmit="store()">Sign Up</button>
+            <p class="switch-text">Already have an account? <a href="login.html">Login here</a></p>
+        </form>
+    </div>
+    <script src="./script/data.js"></script>
+</body>
+</html>
